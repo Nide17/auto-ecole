@@ -21,6 +21,20 @@
   -webkit-text-size-adjust: 100%;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
 .bg-image-ahabanza {
   background-image: url("../src/assets/autoecoles.jpg");
 }
