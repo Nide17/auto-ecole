@@ -19,7 +19,7 @@ const Byinshi = () => {
     let categories = ishuri && ishuri.categories && ishuri.categories.split(",")
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen w-full px-2 sm:px-36 py-4 sm:py-16 text-center">
+        <div className="flex flex-col items-center justify-center min-h-full w-full px-2 sm:px-36 py-4 sm:py-16 text-center">
             {loading ? (
                 <div className="flex flex-col items-center justify-center">
                     <h1 className="text-2xl sm:text-4xl font-bold leading-10 mt-10 text-[#F9CC0B]" style={{ textShadow: "1px 1px 2px #DF4C73" }}>
