@@ -27,7 +27,7 @@ const Byinshi = () => {
                     </h1>
                 </div>
             ) : (
-                <div className="flex flex-col items-center justify-center">
+                <div className="flex flex-col items-center justify-center py-5">
                     <h1 className="text-2xl sm:text-4xl font-bold leading-10 mt-10 text-[#F9CC0B]" style={{ textShadow: "1px 1px 2px #DF4C73" }}>
                         <u>Amakuru yisumbuyeho</u>
                     </h1>
